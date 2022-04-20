@@ -126,4 +126,10 @@ public class BoardController {
 	  return "redirect:/board/list.do";
 	}	
 	
+	
+	// test
+	@GetMapping(value = "/board/basic.do")
+	public String viewBasicPage() {
+		return "board/layout/basic";
+	}	
 }
